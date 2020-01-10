@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andrey.alves.TOKSTOK\\Desktop\\AleConsumer\\hosted-service-rabbit.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andrey.alves.TOKSTOK\\Desktop\\AleConsumer\\hosted-service-rabbit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andrey.alves.TOKSTOK\\Desktop\\AleConsumer\\hosted-service-rabbit.csproj",
+        "projectName": "hosted-service-rabbit",
+        "projectPath": "C:\\Users\\andrey.alves.TOKSTOK\\Desktop\\AleConsumer\\hosted-service-rabbit.csproj",
+        "packagesPath": "C:\\Users\\andrey.alves.TOKSTOK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andrey.alves.TOKSTOK\\Desktop\\AleConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andrey.alves.TOKSTOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://hml-tsw2k1264iishlg.tokstok.net.br:9073/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[5.0.23, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
